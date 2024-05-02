@@ -13,6 +13,11 @@
     "isolatedModules": true,
     "noEmit": true,
 
+
+    /* Advanced Options */
+    "outDir": "./dist",                           // Redirect output structure to the directory.
+    "sourceMap": true,                            // Generates corresponding '.map' file.
+   
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
