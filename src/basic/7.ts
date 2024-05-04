@@ -2,9 +2,9 @@ type Page = {
   title: string;
   likes: number;
   accounts: string[];
-  status: boolean;
+  status: 'open' | 'close';
   details?: {
-    createAt: string;
-    updateAt: string;
+    createAt: Date;
+    updateAt: Date;
   };
 };
